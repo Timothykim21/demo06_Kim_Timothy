@@ -1,1 +1,62 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #FEFAE0      (text, contrast with dark)
+* Dark colour (Primary):    #D4A373
+* Light colour (Secondary): #FAEDCD      (canvas background)
+* Brown (Accent):  #b75858
+*/
+
+.bg-info {
+    background-color: #D4A373 !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #FEFAE0;
+}
+
+.btn-info {
+    color: #FEFAE0;
+    background-color: #CCD5AE;
+    border-color: #E9EDC9;
+}
+
+.btn-primary {
+    color: #FEFAE0;
+    font-size: 150%;
+    background-color: #FAEDCD;
+    border-color: #D4A373;
+    border-width: thick;
+}
+
+body {
+    background-color: #FAEDCD;
+}
+
+
+/* Style for radio button labels when not selected */
+.btn-outline-primary {
+    color: #D4A373;
+    border-color: #D4A373;
+}
+
+/* Style for radio button labels on hover or focus */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #D4A373;
+    background-color: #CCD5AE;
+    border-color: #D4A373;
+}
+
+/* Style for the active (checked) radio button label */
+.btn-check:checked+.btn-outline-primary,
+.btn-check:active+.btn-outline-primary {
+    color: #D4A373;
+    background-color: #CCD5AE;
+    border-color: #D4A373;
+}
